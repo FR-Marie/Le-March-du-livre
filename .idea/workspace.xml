@@ -83,6 +83,7 @@
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/page.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/single.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,6 +245,9 @@
       <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="2BepoGfH4ycfMPHM5QsdD4sMjn4" />
@@ -279,7 +283,7 @@
       <workItem from="1657279922113" duration="402000" />
       <workItem from="1657282445800" duration="481000" />
       <workItem from="1657282989017" duration="7647000" />
-      <workItem from="1657522674302" duration="13558000" />
+      <workItem from="1657522674302" duration="19218000" />
     </task>
     <servers />
   </component>
@@ -299,10 +303,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1657529398040">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1657544272552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1657529398040" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1657544272552" />
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1657276710186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

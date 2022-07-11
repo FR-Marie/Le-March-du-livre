@@ -83,10 +83,36 @@ class LivresController extends AbstractController
      */
     public function edit(Request $request, Livres $livre, LivresRepository $livresRepository): Response
     {
+
+        $img = $livre->getImageLivre();
+
         $form = $this->createForm(LivresType::class, $livre);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
+            $file = $form["image_livre"]->getData();
+
+            if (!is_string($file)) {
+                $fileName = $file->getClientOriginalName();
+
+                $file->move(
+                    $this->getParameter('images_directory'),
+                    $fileName
+                );
+
+
+                $livre->setImageLivre($fileName);
+
+
+                //$this->addFlash('success', 'Le livre a bien été ajouté');
+
+            } else {
+                //$this->addFlash('danger', 'Une erreur est survenue');
+                $livre->setImageLivre($img);
+
+            }
+
             $livresRepository->add($livre, true);
 
             return $this->redirectToRoute('app_livres_index', [], Response::HTTP_SEE_OTHER);
