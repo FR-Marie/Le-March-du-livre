@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c178317c-5d71-4d91-901b-a7f7c335a5d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/gestion_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/navbar-pages-categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/affichage_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/ajouter_produit_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/edition_produit_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/navbar-pages-consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/suppression_produit_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/gestion_fournisseurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/navbar-pages-fournisseurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/affichage_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/ajouter_produit_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/edition_produit_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/suppression_produit_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/affichage_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/ajouter_produit_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/edition_produit_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/suppression_produit_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/traitement_mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Annonces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Regions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_SplashPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Utilisateurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/js/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Annonces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Regions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_SplashPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Utilisateurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/accueil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/inscriptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/splashPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../symfony_le-marche-du-livre/public/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../symfony_le-marche-du-livre/templates/includes/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../symfony_le-marche-du-livre/templates/includes/navbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/front-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-messenger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/redis-messenger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/amqp-messenger" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2BepoGfH4ycfMPHM5QsdD4sMjn4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c178317c-5d71-4d91-901b-a7f7c335a5d5" name="Default Changelist" comment="" />
+      <created>1657276577694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657276577694</updated>
+      <workItem from="1657276578725" duration="1157000" />
+      <workItem from="1657277798890" duration="1452000" />
+      <workItem from="1657279654109" duration="17000" />
+      <workItem from="1657279922113" duration="402000" />
+      <workItem from="1657282445800" duration="481000" />
+      <workItem from="1657282989017" duration="7647000" />
+      <workItem from="1657522674302" duration="12424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1657529398040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1657529398040" />
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1657276710186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1657276710186" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1657276873635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1657276873635" />
+  </component>
+</project>

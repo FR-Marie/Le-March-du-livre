@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Livres index{% endblock %}
+
+{% block body %}
+
+    <h2 class="text-center">Mes livres</h2>
+
+    {% if is_granted('ROLE_USER') %}
+        <a class="btn btn-light bg-dark text-info mb-3" href="{{ path('app_livres_new') }}">Ajouter un livre</a>
+    {% endif %}
+
+
+    <table id="form-inscription" class="table text-white">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Genre</th>
+                <th>Auteur</th>
+                <th>Titre</th>
+                <th>Image</th>
+                <th>Format</th>
+                <th>Vendeur</th>
+                <th>Etat</th>
+                <th>Prix</th>
+                <th>Date annonce</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for livre in livres %}
+            <tr>
+
+                <td>{{ livre.id }}</td>
+                <td>{{ livre.genreLivre }}</td>
+                <td>{{ livre.auteurLivre }}</td>
+                <td>{{ livre.titreLivre }}</td>
+                <td><img class="w-50" src="/img/Livres-en-ligne{{asset(livre.imageLivre)}}" alt="{{ livre.titreLivre }}" title="{{ livre.titreLivre }}"></td>
+                <td>{{ livre.formatLivre }}</td>
+                <td>{{ livre.vendeurLivre.prenomUtilisateur }}</td>
+                <td>{{ livre.etatLivre }}</td>
+                <td>{{ livre.prixLivre }}€</td>
+                <td>{{ livre.dateAnnonceLivre | date('d/m/Y') }}</td>
+                <td>
+                    {% if is_granted('ROLE_USER') %}
+                        <a id="btn-crud" class="btn btn-large btn-light" href="{{ path('app_livres_show', {'id': livre.id}) }}">Détails</a>
+                        <a id="btn-crud" class="btn btn-large btn-light" href="{{ path('app_livres_edit', {'id': livre.id}) }}">Editer</a>
+                        <div class="col-4 text-center mt-2">
+                            {{include('livres/_delete_form.html.twig')}}
+                        </div>
+                    {% endif %}
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">Pas de résultat(s)</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    {% if is_granted('ROLE_USER') %}
+        <a class="btn btn-large btn-light bg-dark text-info mb-3" href="{{ path('app_livres_new') }}">Ajouter un livre</a>
+    {% endif %}
+{% endblock %}

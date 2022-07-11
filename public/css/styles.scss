@@ -1,0 +1,196 @@
+/******** COULEURS ********/
+$marronFonce: #5b2d0d;
+$teal: #00897b;
+
+/******** TITRES ********/
+h1{
+  font-size: 70px;
+  color: $marronFonce;
+  font-family: 'Gentium Plus', serif;
+  margin: 20px;
+}
+h2{
+  font-size: 40px;
+  color: $marronFonce;
+  font-family: 'Gentium Plus', serif;
+}
+
+
+/******** POLICES ********/
+$policeGentiumPlus : 'Gentium Plus', serif;
+$policeStoke: 'Stoke', serif;
+
+
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../img/Divers/fond-accueil.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Gentium Plus', serif;
+  font-size: 18px;
+}
+
+
+/******** NAVBAR ********/
+nav{
+  background-image: url("../img/Divers/fond-sections.png");
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 0px 10px black;
+}
+nav-link a{
+  color: white!important;
+}
+
+#btn-connexion, #btn-inscription{
+  border: 1px solid white;
+  box-shadow: 0px 0px 7px black;
+  margin: 2px;
+}
+#home-icon{
+  color: #e0e0e0;
+}
+
+
+/******** SECTION 1 ********/
+#section-1{
+  border: 3px solid $marronFonce;
+  border-radius: 25px;
+  padding: 40px;
+  background-image: url("../img/Divers/fond-sections.png");
+}
+#img-pres{
+  box-shadow: 0px 0px 10px black;
+  border-radius: 20px;
+}
+#section-1-pres{
+  background-image: url("../img/Divers/fond-sections.png");
+  padding: 50px;
+  border-radius: 20px;
+  color: $marronFonce;
+  box-shadow: 0px 0px 10px black;
+}
+
+
+/******** SECTION 2 ********/
+#section-2{
+  border: 3px solid $marronFonce;
+  border-radius: 25px;
+  padding: 40px;
+  background-image: url("../img/Divers/fond-sections.png");
+}
+
+
+/******** CRUD INDEX ********/
+#table-crud{
+  background-image: url("../img/Divers/fond-sections.png");
+  color: $marronFonce;
+}
+
+#btn-crud{
+  color: $marronFonce;
+  font-family: Impact;
+  box-shadow: 0px 0px 10px black;
+}
+
+.th-crud{
+  color: #d7d7d7;
+  padding: 10px;
+  border: 1px solid #d7d7d7;
+}
+
+.td-crud{
+  border-bottom: 1px solid $marronFonce;
+  background-image: url("../img/Divers/fond-sections.png");
+}
+
+
+
+/******** CRUD DETAILS D'UN PRODUIT ********/
+#card-details-livre{
+  background-image: url("../img/Divers/bois-lierre.jpg");
+  background-size: contain;
+  border: 2px solid $marronFonce;
+  box-shadow: 0px 0px 10px black;
+}
+#card-title-titre{
+  background-color: $teal;
+}
+
+#card-title-auteur{
+  background-color: $marronFonce;
+  width: 75%;
+  border-radius: 0px 50px 50px 0px;
+  margin: 0;
+}
+
+#card-title-genre{
+  background-color: grey;
+  width: 60%;
+  border-radius: 0px 50px 50px 0px;
+}
+
+#btn-supp-crud{
+  background-color: #a70202;
+  color: $teal;
+  font-family: Impact;
+  letter-spacing: 0.5px;
+  box-shadow: 0px 0px 10px black;
+}
+
+
+/******** CRUD EDITION D'UN PRODUIT ********/
+#form-edit-livres{
+  background-image: url("../img/Divers/bois-lierre.jpg");
+  border-radius: 10px;
+  padding: 20px;
+}
+#form-crud{
+  border: 3px solid $marronFonce;
+  border-radius: 25px;
+  padding: 40px;
+  background-image: url("../img/Divers/fond-sections.png");
+  color: $marronFonce;
+}
+label{
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+/******** DIVERS ********/
+.pagination{
+  justify-content: center;
+  background-color: rgb(191 191 191 / 10%);
+}
+.page-link{
+  color: whitesmoke;
+  background-color: $marronFonce;
+}
+.page-link:hover{
+  color: yellow;
+  background-color: $marronFonce;
+}
+
+/******** INSCRIPTION ********/
+#form-inscription{
+  border: 3px solid $marronFonce;
+  border-radius: 25px;
+  padding: 40px;
+  background-image: url("../img/Divers/fond-sections.png");
+  color: $marronFonce;
+}
+/******** FOOTER ********/
+footer{
+  background-image: url("../img/Divers/fond-sections.png");
+}
+footer li{
+  list-style-type: none;
+}
+#links-footer {
+  background-image: url("../img/Divers/fond-sections.png");
+}

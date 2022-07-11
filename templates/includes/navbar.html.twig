@@ -1,0 +1,74 @@
+<nav class="navbar navbar-expand-lg p-3 mb-5">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">-LOGO-</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mx-2" aria-current="page" href="/"><i id="home-icon" class="fa-solid fa-house me-1"></i>Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mx-2" href="#"><i class="fa-solid fa-circle-info fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i>
+                        Derniers livres ajoutés</a>
+                </li>
+
+
+                <!--------------------RECHERCHE PAR REGION-------------------->
+                <li class="nav-item">
+                    <a class="nav-link text-white mx-2" href="#"><i class="fa-solid fa-spinner fa-spin-pulse fa-spin-reverse"></i>Recherche</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white mx-2" href="#"><i class="fa-solid fa-envelope fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i>
+                        Contacts</a>
+                </li>
+
+
+                <!-------------------------BONJOUR "CONNECTE"----------------------------->
+                {% if is_granted('ROLE_USER') %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white mx-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Bonjour {{ app.user.userIdentifier }}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        {% if is_granted('ROLE_ADMIN') %}<li><a class="dropdown-item" href="/livres/">Gestion livres</a></li>{% endif %}
+                        {% if is_granted('ROLE_ADMIN') %}<li><a class="dropdown-item" href="#">Gestion utilisateurs</a></li>{% endif %}
+                        {% if is_granted('ROLE_ADMIN') %}<li><a class="dropdown-item" href="#">Paramètres</a></li>{% endif %}
+                        <hr>
+                        {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="#">Mon profil</a></li>{% endif %}
+                        {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="#">Mes annonces</a></li>{% endif %}
+                        {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="#">Paramètres</a></li>{% endif %}
+                    </ul>
+                </li>
+                {% endif %}
+
+
+            </ul>
+        </div>
+
+        <div class="d-block justify-content-end text-center">
+
+            {% if is_granted('ROLE_ADMIN') or is_granted('ROLE_USER')%}
+            <div>
+                <a href="{{ path('app_logout') }}" id="btn-inscription" class="btn btn-danger">Déconnexion</a>
+            </div>
+            {% else %}
+            <div>
+                <a href="{{ path('app_login') }}" id="btn-connexion" class="btn">Connexion</a>
+            </div>
+
+            <div>
+                <a href="{{ path('app_register') }}" id="btn-inscription" class="btn">Inscription</a>
+            </div>
+            {% endif %}
+
+        </div>
+
+
+    </div>
+</nav>

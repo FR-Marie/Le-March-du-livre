@@ -1,0 +1,88 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Le Marché du Livre{% endblock %}
+
+{% block body %}
+
+
+    <section id="section-1" class="row align-items-center mb-5">
+
+
+        <div>
+            <h1 class="text-center">{{titreSite}}</h1>
+        </div>
+
+
+        <div class="col-lg-6 col-sm-12">
+            <img id="img-pres" src="{{ asset ('img/Divers/accueil.webp') }}" class="img-fluid w-75"/>
+        </div>
+
+        <div id="section-1-pres" class="col-lg-6 col-sm-12">
+            <h2>Présentation</h2>
+            <p class="p-pres">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p class="p-pres">
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+    </section>
+
+
+
+
+    <section id="section-2">
+
+        <div class="row text-center mb-5">
+            <h2>Les derniers livres ajoutés</h2>
+        </div>
+
+
+        <div class="row justify-content-center mb-2">
+            {% for livre in livresPaginesAccueil %}
+                <div class="col-md-3 col-sm-6 p-0 m-1">
+
+
+                    <div id="card-details-livre" class="card mb-3">
+
+                        <div id="card-title-titre" class="card-title p-2 text-center text-white">{{ livre.titreLivre }}</div>
+                        <div id="card-title-auteur" class="card-title p-1 text-white">{{ livre.auteurLivre }}</div>
+                        <div id="card-title-genre" class="card-title p-1 text-white">{{ livre.genreLivre }}</div>
+
+                        <div class="row m-0 p-0">
+                            <div class="card-body col-5">
+                                <div class="card-img"><img src="/img/Livres-en-ligne{{asset(livre.imageLivre)}}" class="img-fluid"></div>
+                            </div>
+                            <div class="card-body col-7">
+                                <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Vendu par:</p> <p>{{ livre.vendeurLivre }}</p></div>
+                                <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Etat du livre:</p> <p>{{ livre.etatLivre }}</p></div>
+                                <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Prix TTC:</p> <p>{{ livre.prixLivre }}€</p></div>
+                                <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Date de l'annonce:</p> <p>{{ livre.dateAnnonceLivre | date("d/m/Y")}}</p></div>
+                            </div>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <a href="{{ path('app_livres_show', {'id': livre.id}) }}" class="btn bg-success text-white">VOIR LE LIVRE</a>
+                        </div>
+
+                        <!---card---->
+                    </div>
+                    <!----col--->
+                </div>
+            {% endfor %}
+            <!----row--->
+        </div>
+
+
+        <div class="navigation w-50 m-auto">
+            {{ knp_pagination_render(livresPaginesAccueil) }}
+        </div>
+        <!----row--->
+        </div>
+
+
+
+    </section>
+
+{% endblock %}

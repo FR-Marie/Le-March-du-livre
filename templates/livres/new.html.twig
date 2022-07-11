@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Livres{% endblock %}
+
+{% block body %}
+        <div id="form-edit-livres" class="w-50 text-white">
+            <h2 class="text-white mb-4">Ajouter un livre</h2>
+
+            <div class="w-75">
+                {{ include('livres/_form.html.twig') }}
+            </div>
+
+            <a class="btn btn-danger mt-2" href="{{ path('app_livres_index') }}">Annuler</a>
+        </div>
+
+
+{% endblock %}

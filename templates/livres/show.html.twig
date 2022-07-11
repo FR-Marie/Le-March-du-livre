@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Livres{% endblock %}
+
+{% block body %}
+
+    <div class="row">
+        <div class="col-4">
+            <div id="card-details-livre" class="card">
+
+
+                <div id="card-title-titre" class="card-title p-2 text-center text-white">{{ livre.titreLivre }}</div>
+                <div id="card-title-auteur" class="card-title p-1 text-white">{{ livre.auteurLivre }}</div>
+                <div id="card-title-genre" class="card-title p-1 text-white">{{ livre.genreLivre }}</div>
+
+                <div class="row m-0 p-0">
+                    <div class="card-body col-5">
+                        <div class="card-img"><img src="/img/Livres-en-ligne{{asset(livre.imageLivre)}}" class="img-fluid"></div>
+                    </div>
+                    <div class="card-body col-7">
+                        <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Vendu par:</p> <p>{{ livre.vendeurLivre }}</p></div>
+                        <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Etat du livre:</p> <p>{{ livre.etatLivre }}</p></div>
+                        <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Prix TTC:</p> <p>{{ livre.prixLivre }}€</p></div>
+                        <div class="card-text"><p class="p-0 m-0 bg-dark text-white">Date de l'annonce:</p> <p>{{ livre.dateAnnonceLivre | date("d/m/Y")}}</p></div>
+                    </div>
+                </div>
+
+                {% if is_granted('ROLE_USER') %}
+                    <div class="card-footer">
+                        <div class="row align-items-center">
+                            <div class="col-4 text-center">
+                                {{include('livres/_delete_form.html.twig')}}
+                            </div>
+                            <div class="col-4 text-center">
+                                <a id="btn-crud" class="btn btn-large btn-light" href="{{ path('app_livres_edit', {'id': livre.id}) }}">EDITER</a>
+                            </div>
+                            <div class="col-4 text-center">
+                                <a id="btn-crud" class="btn btn-large btn-light" href="{{ path('app_livres_index') }}">RETOUR</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}
