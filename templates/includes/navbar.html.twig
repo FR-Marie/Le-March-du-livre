@@ -36,13 +36,12 @@
                         Bonjour {{ app.user.userIdentifier }}
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        {% if is_granted('ROLE_ADMIN') %}<li><a class="dropdown-item" href="/livres/">Gestion livres</a></li>{% endif %}
-                        {% if is_granted('ROLE_ADMIN') %}<li><a class="dropdown-item" href="#">Gestion utilisateurs</a></li>{% endif %}
-                        {% if is_granted('ROLE_ADMIN') %}<li><a class="dropdown-item" href="#">Paramètres</a></li>{% endif %}
-                        <hr>
-                        {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="#">Mon profil</a></li>{% endif %}
+                        {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="/livres/">Mon profil</a></li>{% endif %}
                         {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="#">Mes annonces</a></li>{% endif %}
                         {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="#">Paramètres</a></li>{% endif %}
+                        <hr>
+                        {% if is_granted('ROLE_USER') %}<li><a class="dropdown-item" href="/livres/">Administration</a></li>{% endif %}
+
                     </ul>
                 </li>
                 {% endif %}

@@ -4,12 +4,11 @@
 
 {% block body %}
 
+    {% if app.user %}
     <h2 class="text-center">Mes livres</h2>
 
-    {% if is_granted('ROLE_USER') %}
-        <a class="btn btn-light bg-dark text-info mb-3" href="{{ path('app_livres_new') }}">Ajouter un livre</a>
-    {% endif %}
 
+        <a class="btn btn-light bg-dark text-info mb-3" href="{{ path('app_livres_new') }}">Ajouter un livre</a>
 
     <table id="form-inscription" class="table text-white">
 
@@ -29,7 +28,7 @@
             </tr>
         </thead>
         <tbody>
-        {% for livre in livres %}
+        {% for livre in app.user.livres %}
             <tr>
 
                 <td>{{ livre.id }}</td>
@@ -60,7 +59,14 @@
         </tbody>
     </table>
 
-    {% if is_granted('ROLE_USER') %}
         <a class="btn btn-large btn-light bg-dark text-info mb-3" href="{{ path('app_livres_new') }}">Ajouter un livre</a>
+
+
+    {% else %}
+        <div>
+            <h2>Vous devez être connecté pour accéder à vos annonces</h2>
+        </div>
+
     {% endif %}
+
 {% endblock %}
