@@ -13,6 +13,10 @@ class AccueilController extends AbstractController
 {
     /**
      * @Route("/", name="app_accueil")
+     * @param LivresRepository $livresRepository
+     * @param PaginatorInterface $paginator
+     * @param Request $request
+     * @return Response
      */
     public function livresAccueilPagines(LivresRepository $livresRepository, PaginatorInterface $paginator, Request $request): Response
     {
@@ -20,6 +24,7 @@ class AccueilController extends AbstractController
         // Méthode findBy qui permet de récupérer les données avec des critères de filtre et de tri
         //$donnees = $this->getDoctrine()->getRepository(Articles::class)->findBy([],['created_at' => 'desc']);
         //Si tri utilisé, supprimer le ->finAll() et appeler $donnees à la place
+
         $pagination = $paginator->paginate(
             $livresRepository->findAll(),
             $request->query->getInt('page', 1), 3
@@ -31,4 +36,3 @@ class AccueilController extends AbstractController
         ]);
     }
 }
-

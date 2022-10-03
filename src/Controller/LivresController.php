@@ -98,6 +98,7 @@ class LivresController extends AbstractController
 
                 $file->move(
                     $this->getParameter('images_directory'),
+
                     $fileName
                 );
 

@@ -2,6 +2,7 @@
 
 namespace App\Controller\Admin;
 
+use App\Entity\EtatsUsure;
 use App\Entity\Formats;
 use App\Entity\Genres;
 use App\Entity\Livres;
@@ -43,6 +44,7 @@ class DashboardController extends AbstractDashboardController
             MenuItem::section('GESTION DES'),
             MenuItem::linkToCrud('Genres', 'fab fa-galactic-senate', Genres::class),
             MenuItem::linkToCrud('Formats', 'fab fa-stack-overflow', Formats::class),
+            MenuItem::linkToCrud('EtatsUsure', 'fab fa-stack-overflow', EtatsUsure::class),
 
 
             MenuItem::section('GESTION UTILISATEURS'),

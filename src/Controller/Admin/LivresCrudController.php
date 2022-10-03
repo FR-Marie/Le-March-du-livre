@@ -24,7 +24,7 @@ class LivresCrudController extends AbstractCrudController
     {
         return [
             IntegerField::new('id', 'ID')->onlyOnIndex(),
-            TextField::new('genre_livre', 'Genre'),
+            AssociationField::new('genre_livre', 'Genre'),
             TextField::new('auteurLivre', 'Auteur(s) du livre'),
             TextField::new('titreLivre', 'Titre du livre'),
 
